@@ -229,7 +229,7 @@ void updateBrightness() {
 
 void turnOnPixels() {
   if (allAtOnce) { updateColor(); }
-  else { oneByOneMode(); }
+  else { ledOneByOne(); }
 }
 
 void turnOffPixels() {
